@@ -14,6 +14,6 @@ public class Customer {
         BMW111 bmw111 = factoryBWM111.createBMW();
 
         FactoryBWM222 factoryBWM222 = new FactoryBWM222();
-        BMW222 bmw222 = new BMW222();
+        BMW222 bmw222 = factoryBWM222.createBMW();
     }
 }
